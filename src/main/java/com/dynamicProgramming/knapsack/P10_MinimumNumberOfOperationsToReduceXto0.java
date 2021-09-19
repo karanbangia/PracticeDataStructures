@@ -1,13 +1,10 @@
 package com.dynamicProgramming.knapsack;
 
-import org.junit.Test;
-
-import java.util.Arrays;
 import java.util.HashMap;
 
-import static com.sun.xml.internal.ws.api.model.wsdl.WSDLBoundOperation.ANONYMOUS.required;
+import org.junit.Test;
 
-public class P9_MinimumNumberOfOperationsToReduceXto0
+public class P10_MinimumNumberOfOperationsToReduceXto0
 {
     HashMap<String, Integer> hm = new HashMap<>();
 
