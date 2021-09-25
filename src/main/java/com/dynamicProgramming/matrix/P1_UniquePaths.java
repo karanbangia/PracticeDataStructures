@@ -1,6 +1,8 @@
-package com.dynamicProgramming.algoExpert;
+package com.dynamicProgramming.matrix;
 
-public class P1_WaysToTraverseGraph {
+import org.junit.Test;
+//https://leetcode.com/problems/unique-paths-i/
+public class P1_UniquePaths {
     public int numberOfWaysToTraverseGraph(int m, int n) {
         // Write your code here.
 
@@ -21,5 +23,10 @@ public class P1_WaysToTraverseGraph {
             }
         }
         return dp[n-1][m-1];
+    }
+    @Test
+    public void test()
+    {
+        System.out.println(numberOfWaysToTraverseGraph(3,7));
     }
 }
